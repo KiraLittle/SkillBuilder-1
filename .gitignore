@@ -1,0 +1,10 @@
+/build/
+/.gradle/
+/.idea/
+/.git/
+/gradle/
+/solution/
+/src/.idea/
+*.iml
+gradle*
+.DS_Store
