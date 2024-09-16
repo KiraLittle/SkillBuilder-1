@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class SkillBuilder1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //TODO : Replace this comment with your code
+        //TOO : Replace this comment with your code
     }
 
     public static void calcWallPaint() {
