@@ -41,18 +41,18 @@ public class SkillBuilder1 {
 
         // TODO: Calculate and output the wall's area
         double area = wallHeight * wallWidth;
-        System.out.println("Wall area: " + area + "square feet");
+        System.out.println("Wall area: " + area + " square feet");
 
         // TODO: Calculate and output the amount of paint in gallons needed to paint the wall
         //Assume a gallon of paint covers 350 square feet.
         double gallon = 350.0;
         double paint = area / gallon;
-        System.out.println("Paint needed: " + paint + "gallons");
+        System.out.println("Paint needed: " + paint + " gallons");
 
         // TODO: Calculate and output the number of 1 gallon cans needed to paint the wall, rounded up to nearest integer
 
         double cans = (double) Math.ceil(paint);
 
-        System.out.println("Cans needed: " + cans + "can(s)");
+        System.out.println("Cans needed: " + cans + " can(s)");
     }
 }
